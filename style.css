@@ -1,0 +1,58 @@
+/* style.css */
+body {
+    margin: 0;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    background: #f5f5f5;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 6rem auto 0 auto;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 4px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    margin-top: 0;
+    text-align: center;
+  }
+  
+  .file-input {
+    margin: 1rem 0;
+    text-align: center;
+  }
+  
+  .file-input input[type="file"] {
+    display: inline-block;
+    padding: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .parse-btn {
+    display: block;
+    margin: 1rem auto 0 auto;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background: #0066cc;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .parse-btn:hover {
+    background: #004da5;
+  }
+  
+  .status {
+    margin-top: 1rem;
+    text-align: center;
+    font-style: italic;
+    color: #555;
+  }
+  

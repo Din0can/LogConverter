@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>Logdatei-Parser mit Filter</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- SheetJS from a CDN for generating .xlsx -->
+  <script src="https://cdn.sheetjs.com/xlsx-0.18.7/package/dist/xlsx.full.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Logdatei-Parser (mit Filter in Excel)</h1>
+    <p>Wähle eine <code>.log</code>-Datei und klicke auf "Parse &amp; Export". Der Download enthält Tabellen mit aktivierten Filtern.</p>
+
+    <div class="file-input">
+      <input type="file" id="logFile" accept=".log" />
+    </div>
+    <button class="parse-btn" onclick="parseAndDownload()">Parse &amp; Export</button>
+
+    <div id="statusMessage" class="status"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
