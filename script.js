@@ -365,7 +365,7 @@ function parseIncludedUser(line, kind) {
   
       // 3) Download als .xlsx
       statusDiv.textContent = "Starte Download...";
-      XLSX.writeFile(wb, "log_analysis.xlsx");
+      XLSX.writeFile(wb, "log_analyse.xlsx");
   
       statusDiv.textContent = "Fertig! Excel-Datei wurde erstellt.";
     };
